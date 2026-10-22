@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mates – kleine Runden, echte Leute</title>
+<meta name="description" content="Mates bringt Studierende und Azubis in kleinen Runden zusammen.">
+<link rel="icon" href="favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F5F3FA;--surface:#FFFFFF;--ink:#15112A;--muted:#4B4660;--brand:#0B5C3F;--line:rgba(29, 15, 69, 0.09);color-scheme:light dark}
+@media (prefers-color-scheme: dark){:root{--bg:#0F0D14;--surface:#1B1824;--ink:#F6F4FB;--muted:#B9B4C6;--brand:#9EE6C2;--line:rgba(255, 255, 255, 0.09);}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;-webkit-text-size-adjust:100%}
+main{max-width:720px;margin:0 auto;padding:32px 16px 64px}
+header{display:flex;align-items:center;gap:12px;margin-bottom:24px}
+header a{display:flex;align-items:center;gap:12px;color:inherit;text-decoration:none}
+.tile{width:44px;height:44px;border-radius:11px;background:#0B4A33;color:#C9F2DE;display:grid;place-items:center;font:700 28px/1 Fredoka,system-ui,sans-serif}
+.word{font:700 28px/1 Fredoka,system-ui,sans-serif;color:var(--brand)}
+h1{font:700 32px/1.2 Fredoka,system-ui,sans-serif;margin:8px 0 8px}
+h2{font-size:18px;margin:28px 0 6px}
+p{margin:0 0 12px;color:var(--ink)}
+.muted,footer{color:var(--muted)}
+a{color:var(--brand)}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:16px 20px;margin:16px 0}
+.card h2{margin-top:4px}
+nav.links{display:flex;flex-wrap:wrap;gap:8px 16px;margin:24px 0}
+footer{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);font-size:14px;display:flex;flex-wrap:wrap;gap:8px 16px}
+</style>
+</head>
+<body>
+<main>
+<header><a href="index.html" aria-label="Mates Startseite"><span class="tile" aria-hidden="true">m</span><span class="word">mates</span></a></header>
+<h1>Weniger scrollen. Mehr erleben.</h1>
+<p class="muted">Mates bringt Studierende und Azubis zusammen – spontan zum Volleyball, zur Lerngruppe oder abends in die Kneipe. In kleinen Runden, in denen man Leute wirklich kennenlernt.</p>
+<div class="card" id="hilfe">
+<h2>Hilfe &amp; Kontakt</h2>
+<p>Fragen, Probleme oder Feedback? Schreib uns: <a href="mailto:Yasminkarimi06@gmail.com">Yasminkarimi06@gmail.com</a></p>
+<p class="muted">Inhalte oder Profile, die gegen unsere Regeln verstoßen, kannst du direkt in der App melden („Melden oder blockieren“).</p>
+</div>
+<div class="card" id="konto-loeschen">
+<h2>Konto und Daten löschen</h2>
+<p>In der App: <strong>Profil → Einstellungen → „Account löschen“</strong> (ganz unten). Dein Konto und alle damit verknüpften Daten werden dabei gelöscht.</p>
+<p>Ohne App: Schreib eine E-Mail von der Adresse deines Kontos an <a href="mailto:Yasminkarimi06@gmail.com">Yasminkarimi06@gmail.com</a> mit dem Betreff „Konto löschen“. Wir löschen dein Konto dann innerhalb von 30 Tagen und bestätigen es dir.</p>
+<p class="muted">Details zur Speicherdauer stehen in der <a href="datenschutz.html">Datenschutzerklärung</a>.</p>
+</div>
+<nav class="links" aria-label="Rechtliches"><a href="datenschutz.html">Datenschutzerklärung</a><a href="impressum.html">Impressum</a></nav>
+<footer><a href="index.html">Start</a><a href="datenschutz.html">Datenschutz</a><a href="impressum.html">Impressum</a><span>Stand: Oktober 2026</span></footer>
+</main>
+</body>
+</html>
